@@ -1,0 +1,320 @@
+/***** BASE STYLES *****/
+
+.body {
+    font-family: 'Source Sans Pro', Sans serif;
+    color: #2b2b2b;
+}
+
+h2, p {
+    font-family: 'Lora', serif;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** Header CSS Code *****/
+
+/* header {
+    background-color: #eeeef0;
+} */
+
+header h1 {
+    padding: 65px 0 65px 25px;
+    font-family: 'Lora';
+    font-size: 30px;
+    color: #bbc085;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 30px;
+}
+
+/* hero */
+
+.hero {
+    height: 800px;
+    background-image: url('../img/hero.png');
+    background-size: cover;
+}
+
+.hero-portfolio {
+    background: url("../img/undraw_good_team_m7uu.svg") no-repeat bottom right;
+    background-size: 600px;
+    height: 530px;
+    clear: both;
+    background-position-y: bottom;
+}
+
+.reviews {
+    height: 550px;
+    margin: 100px auto;
+}
+
+.hero-reviews {
+    background: url("../img/undraw_happy_music_g6wc.svg") no-repeat bottom right;
+    background-size: 600px;
+    height: 530px;
+    clear: both;
+    background-position-y: bottom;
+}
+
+.hero h2 {
+    width: 1000px;
+    clear: both;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+.hero-portfolio h2 {
+    clear: both;
+    font-size: 150px;
+    line-height: 120px;
+    color: #9b9b9b;
+    padding: 120px 0 20px 25px;
+    margin: 100px;
+    vertical-align: middle;
+}
+
+.hero-reviews h2 {
+    clear: both;
+    font-size: 120px;
+    line-height: 100px;
+    color: #9b9b9b;
+    padding: 100px 0 20px 25px;
+    margin: 100px;
+    vertical-align: middle;
+}
+
+.col-left {
+    margin-right: 50px;
+    width: 500px;
+    float: left;
+}
+
+.col-right {
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+}
+
+.card {
+    padding: 20px;
+    width: 100%;
+}
+
+.card img {
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+
+.card p {
+    margin: 20px;
+}
+
+.card .client-name {
+    text-align: right;
+}
+
+/***** portfolio *****/
+
+.project-card img {
+    width: 500px;
+}
+
+.project-card {
+    margin: 40px 50px;
+    width: 500px;
+    float: left;
+}
+
+.project-card h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project-card p {
+    line-height: 30px;
+}
+
+.project-col-left {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+    width: 500px;
+    float: left;
+}
+
+.project-col-right {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+}
+
+.hero h2 span, .hero-portfolio h2 span, .hero-reviews h2 span {
+    color: #2b2b2b;
+}
+
+/***** About CSS Code *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora';
+    font-size: 36px;
+    padding-left: 48px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 49px;
+    padding-right: 56px;
+}
+
+/***** Work CSS Code *****/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora';
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/***** Footer CSS Code *****/
+
+footer {
+    clear: both;
+}
+
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora';
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
